@@ -1,0 +1,53 @@
+.logo {
+    height: 45px;
+    width: 220px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 5;
+    font-size: 1em;
+}
+
+#one {
+    background-image: url('http://d9hhrg4mnvzow.cloudfront.net/info.casetext.com/about/70dbca1e-supremecourt.png');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+article header h3 {
+    font-weight: 1000
+}
+.valueProsistions{
+   text-align: center;
+   font-size: 2em;
+   font-weight: 1000
+}
+
+.pricing {
+    text-align: center;
+}
+
+.pricing-header {
+    color: #5385c1;
+    font-size: 3em;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.pricing h2 {
+    color: #5385c1;
+    font-weight: 800;
+    
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    background-color: #5385c1;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+}

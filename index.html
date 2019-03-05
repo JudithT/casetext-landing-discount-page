@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Theory by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/styles.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" ><img class="logo" src="https://casetext.com/dist/assets/images/logo-dark.png" alt="casetext logo"/></a>
+					<nav id="nav">
+						<a href="index.html">Tour</a>
+						<a href="index.html">Product</a>
+						<a href="index.html">Pricing</a>
+						<a href="index.html">Pricing</a>
+						<a href="index.html">Big Firm</a>
+						<a href="index.html">Coverage</a>
+						<a href="index.html">Free Trial</a>
+						<a href="index.html">Sign In</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h1>A true Lexis/Westlaw replacement for less than half the cost</h1>
+				<p>Easy to use legal research. $65 a month.</p>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+					<h1 class="valueProsistions">Our Value Propositions</h1>
+				<div class="inner">
+					<div class="flex flex-3">
+						<article>
+							<header>
+								<h3>With Casetext you get access to all 50-state case law, federal case law, federal and select state briefs, federal and state statutes, federal regulations, and much more.
+								</h3>
+							</header>
+						</article>
+						<article>
+							<header>
+								<h3>Casetext’s artificial intelligence search, CARA, finds cases on the same facts, legal issues, and jurisdiction as your matter. Just drag and drop a brief or complaint and CARA will find on-point cases for you.</h3>
+							</header>
+						</article>
+						<article>
+							<header>
+								<h3>Know instantly whether a case has been overturned, reversed, vacated, or superseded with our comprehensive citator</h3>
+							</header>
+						</article>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style1 special">
+				<div class="inner">
+					<header>
+						<h2>Our Proof Points</h2>
+					</header>
+					<div class="flex flex-4">
+						<div class="box person">					
+								<h3>
+										Over 2,700 law firms across the country and across practice areas have switched to Casetext. Our customers include solo attorneys and the largest firms in the country, and everyone in between
+								</h3>
+						</div>
+						<div class="box person">
+							<h3>Our satisfaction level is through the roof. Most of our customers say they’d happily recommend Casetext to friends and colleagues. And they do.</h3>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="wrapper">
+					<h2 class="pricing-header">Plan and Pricing</h2>
+				<div class="inner">
+					<div class="flex flex-3">
+						<article>
+							<header class="pricing">
+								<h2>
+									Solo
+								</h2>
+								<p>1 attorney</p>
+								<h2>$65</h2>
+								<p>per month, billed annually</p>
+								<a href="#ex1" rel="modal:open"><button id="solo">Purchase</button></a>
+							</header>
+							
+						</article>
+						<article>
+								<header class="pricing">
+										<h2>
+										 Firm
+										</h2>
+										<p>2-10 attorneys</p>
+										<h2>$600</h2>
+										<p>per month, billed annually</p>
+										<a href="#ex1" rel="modal:open"><button id="firm">Purchase</button></a>
+									</header>
+						</article>
+						<article>
+								<header class="pricing">
+										<h2>
+											Big Firm
+										</h2>
+										<p>+11 attorneys</p>
+										<h2>$900</h2>
+										<p>per month, billed annually</p>
+										<a href="#ex1" rel="modal:open"><button id="bigFirm">Purchase</button></a>
+									</header>
+						</article>
+					</div>
+				</div>
+			</section>
+		
+		<!-- Modal discount modal-->
+		<div id="ex1" class="modal">
+			<input id="promoCode" placeholder="Enter promo code to get discount"/>
+				<p id="totalPrice"></p>
+				<p id="discount"></p>
+				<a href="#" rel="modal:close"><button>Close</button></a>
+
+				<a href="#" rel="modal:close"><button id="customButton">Pay</button></a>
+		</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-linkedin"><span class="label">linkedIn</span></a></li>
+							<li><a href="#" class="icon fa-pinterest-p"><span class="label">Pinterest</span></a></li>
+							<li><a href="#" class="icon fa-vimeo"><span class="label">Vimeo</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+			<script src="https://checkout.stripe.com/checkout.js"></script>
+			<script src="assets/js/index.js"></script>
+	</body>
+</html>
